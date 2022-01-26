@@ -10,6 +10,6 @@
 
 
 ## Members
-Maria Virt
-Elizabeth Gollahon
-Newt Newton
+* Maria Virt
+* Elizabeth Gollahon
+* Newt Newton
