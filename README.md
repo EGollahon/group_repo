@@ -1,15 +1,15 @@
 # group_repo
 
 
-###Description of client
+## Description of client
 
 
 
-###Linking
+## Linking
 
 
 
-###Members
+## Members
 Maria Virt
 Elizabeth Gollahon
 Newt Newton
