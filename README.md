@@ -6,7 +6,7 @@ Rachael owns a coffee shop in Indianapolis, Indiana. She is a 32 year old single
 
 
 ## Linking
-
+[Link to hosted project](https://egollahon.github.io/group_repo/)
 
 
 ## Members
