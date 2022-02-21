@@ -13,3 +13,13 @@ Rachael owns a coffee shop in Indianapolis, Indiana. She is a 32 year old single
 * Maria Virt
 * Elizabeth Gollahon
 * Newt Newton
+
+## Pages
+* Home
+* Menu
+* About
+* Apply for a Job / Careers
+
+## Color Scheme - Newt
+## Nav - Maria
+## Content Box Styling - Elizabeth
