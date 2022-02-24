@@ -21,5 +21,10 @@ Rachael owns a coffee shop in Indianapolis, Indiana. She is a 32 year old single
 * Apply for a Job / Careers
 
 ## Color Scheme - Newt
+- ![#211A1D](https://via.placeholder.com/25/211A1D/000000?text=+) `#211A1D`
+- ![#1F3225](https://via.placeholder.com/25/1F3225/000000?text=+) `#1F3225`
+- ![#F9F4F1](https://via.placeholder.com/25/F9F4F1/000000?text=+) `#F9F4F1`
+- ![#A58D8D](https://via.placeholder.com/25/A58D8D/000000?text=+) `#A58D8D`
+- ![#593C36](https://via.placeholder.com/25/593C36/000000?text=+) `#593C36`
 ## Nav - Maria
 ## Content Box Styling - Elizabeth
