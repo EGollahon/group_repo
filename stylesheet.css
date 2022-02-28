@@ -1,0 +1,92 @@
+body{
+    background-color: #F9F4F1;
+    margin: 0;
+    padding: 0;
+}
+/*Nav bar styling*/
+.NavBar {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #A58D8D;
+}
+.NavBarLinks ul{
+    margin:0;
+    padding: 0;
+    display: flex;
+}
+.NavBarLinks li{
+    list-style: none;
+    font-size: 20px;
+    display: block;
+}
+.NavBarLinks li a{
+    text-decoration: none;
+    color: #F9F4F1;
+    padding: 20px;
+    display: block;
+    text-align: center;
+}
+.NavBarLinks li:hover{
+    background-color: #593C36;
+
+}
+/*coffee cup styling*/
+.logo img{
+    margin-top: 20px;
+    width: 40px;
+    height: 30px;
+    margin-left: 10px;
+}
+.logo a:hover{
+    background-color: #A58D8D;
+}
+/*responsive nav bar*/
+.toggleButton{
+    position: absolute;
+    margin-left: 460px;
+    margin-top: 20px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+}
+.toggleButton .bar{
+    height: 2px;
+    width: 100%;
+    background-color: white;
+    border-radius: 1px;
+}
+/*Media*/
+@media (max-width: 600px){
+    .toggleButton{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .NavBarLinks{
+        display: none;
+        width: 100%;
+    }
+    .NavBar{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .NavBarLinks ul{
+        width: 100%;
+        flex-direction: column;
+    }
+    .NavBarLinks li{
+        text-align: center;
+        width: 100%;
+    }
+    .NavBarLinks.active{
+        display: flex;
+        background-color: #A58D8D;
+        width: 100%;
+    }
+}
+
+
+
