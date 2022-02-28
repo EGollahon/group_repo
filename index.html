@@ -1,21 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>Client Project</title>
+    <meta name="viewport" content = "width=device-width, initial scale=1.0">
     <link rel="stylesheet" href="./stylesheet.css">
 </head>
 <body>
 
+
 <div class="NavBar" id="topNav">
-    <a href="#home" class="active" >Home</a>
-    <a href="#menu">Menu</a>
-    <a href="#about">About</a>
-    <a href="#careers">Careers</a>
+    <!--Logo-->
+    <div class ="logo"><a href = "#home"><img src="logo.png"></a></div>
+    <!--collapsable hamburger menu-->
+    <a href="#" class="toggleButton">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </a>
+    <!--Nav Bar links-->
+    <div class="NavBarLinks">
+        <ul>
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#careers">Careers</a></li>
+        </ul>
+    </div>
+
 </div>
 
-
-
-
+<script src="app.js"></script>
 </body>
 </html>
