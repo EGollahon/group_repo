@@ -27,4 +27,8 @@ Rachael owns a coffee shop in Indianapolis, Indiana. She is a 32 year old single
 - ![#A58D8D](https://via.placeholder.com/25/A58D8D/000000?text=+) `#A58D8D`
 - ![#593C36](https://via.placeholder.com/25/593C36/000000?text=+) `#593C36`
 ## Nav - Maria
+* Incorporated the color scheme into the nav bar
+* Added a hamburger menu
+* Created responsive nav bar which collapses to hamburger menu when the screen is 600px and less
+
 ## Content Box Styling - Elizabeth
