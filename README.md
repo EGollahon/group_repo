@@ -30,5 +30,6 @@ Rachael owns a coffee shop in Indianapolis, Indiana. She is a 32 year old single
 * Incorporated the color scheme into the nav bar
 * Added a hamburger menu
 * Created responsive nav bar which collapses to hamburger menu when the screen is 600px and less
+* Includes a coffee cup as logo in top left corner of page
 
 ## Content Box Styling - Elizabeth
