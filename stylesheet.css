@@ -1,7 +1,11 @@
-body{
+body {
     background-color: #F9F4F1;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
 /*Nav bar styling*/
 .NavBar {
@@ -10,60 +14,116 @@ body{
     justify-content: space-between;
     align-items: center;
     background-color: #A58D8D;
+    width: 100%
 }
-.NavBarLinks ul{
+.NavBarLinks ul {
     margin:0;
     padding: 0;
     display: flex;
 }
-.NavBarLinks li{
+.NavBarLinks li {
     list-style: none;
     font-size: 20px;
     display: block;
 }
-.NavBarLinks li a{
+.NavBarLinks li a {
     text-decoration: none;
     color: #F9F4F1;
     padding: 20px;
     display: block;
     text-align: center;
 }
-.NavBarLinks li:hover{
+.NavBarLinks li:hover {
     background-color: #593C36;
 
 }
 /*coffee cup styling*/
-.logo img{
-    margin-top: 20px;
+.logo img {
     width: 40px;
     height: 30px;
     margin-left: 10px;
 }
-.logo a:hover{
+.logo a:hover {
     background-color: #A58D8D;
 }
 /*responsive nav bar*/
-.toggleButton{
-    position: absolute;
-    margin-left: 460px;
-    margin-top: 20px;
+.toggleButton {
+    margin-right: 10px;
     display: none;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
     width: 30px;
     height: 20px;
 }
-.toggleButton .bar{
+.toggleButton .bar {
     height: 2px;
     width: 100%;
     background-color: white;
     border-radius: 1px;
 }
+
+/*Content Box Styling*/
+
+.item-box {
+    width: 300px;
+    height: 200px;
+    background-color: #1F3225;
+    color: #F9F4F1;
+    margin: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0px 10vw 0px 10vw;
+}
+
+.banner {
+    width: 100%;
+    background-color: #593C36;
+    min-height: 15vh;
+    margin: 20px 0px 20px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #F9F4F1;
+}
+
+.content {
+    background-color: #A58D8D;
+    min-height: 15vh;
+    margin: 20px 0px 20px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+    border-radius: 20px;
+}
+
 /*Media*/
-@media (max-width: 600px){
+@media (max-width: 600px) {
+    .mobile-bar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        min-height: 70px;
+    }
     .toggleButton{
         display: flex;
-        flex-wrap: wrap;
     }
     .NavBarLinks{
         display: none;
@@ -87,6 +147,3 @@ body{
         width: 100%;
     }
 }
-
-
-
