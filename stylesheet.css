@@ -2,6 +2,10 @@ body {
     background-color: #F9F4F1;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
 /*Nav bar styling*/
 .NavBar {
@@ -10,6 +14,7 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: #A58D8D;
+    width: 100%
 }
 .NavBarLinks ul {
     margin:0;
@@ -58,6 +63,55 @@ body {
     background-color: white;
     border-radius: 1px;
 }
+
+/*Content Box Styling*/
+
+.item-box {
+    width: 300px;
+    height: 200px;
+    background-color: #1F3225;
+    color: #F9F4F1;
+    margin: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0px 10vw 0px 10vw;
+}
+
+.banner {
+    width: 100%;
+    background-color: #593C36;
+    min-height: 15vh;
+    margin: 20px 0px 20px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #F9F4F1;
+}
+
+.content {
+    background-color: #A58D8D;
+    min-height: 15vh;
+    margin: 20px 0px 20px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+    border-radius: 20px;
+}
+
 /*Media*/
 @media (max-width: 600px) {
     .mobile-bar {
