@@ -33,3 +33,7 @@ Rachael owns a coffee shop in Indianapolis, Indiana. She is a 32 year old single
 * Includes a coffee cup as logo in top left corner of page
 
 ## Content Box Styling - Elizabeth
+### Three content box styles
+* a full-width banner for important information
+* a flex container of smaller boxes suitable for displaying menu items
+* a box for regular content
