@@ -37,3 +37,8 @@ Rachael owns a coffee shop in Indianapolis, Indiana. She is a 32 year old single
 * a full-width banner for important information
 * a flex container of smaller boxes suitable for displaying menu items
 * a box for regular content
+
+## Icons - Newt
+* Incorported social media icons
+* Added a unique favicon to each page
+* Attached a newsletter form
