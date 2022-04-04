@@ -85,14 +85,14 @@ body {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    margin: 0px 10vw 0px 10vw;
+    margin: 0 10vw 0 10vw;
 }
 
 .banner {
     width: 100%;
     background-color: #593C36;
     min-height: 15vh;
-    margin: 20px 0px 20px 0px;
+    margin: 20px 0 20px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -103,7 +103,7 @@ body {
 .content {
     background-color: #A58D8D;
     min-height: 15vh;
-    margin: 20px 0px 20px 0px;
+    margin: 20px 0 20px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -112,7 +112,88 @@ body {
     border-radius: 20px;
 }
 
-/*Media*/
+footer {
+    width: 100%;
+    padding: 3px;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: #A58D8D;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px;
+}
+
+.left {
+    width: 50%;
+}
+
+.right {
+    width: 50%;
+    height: 15em;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+i{
+    font-size: 28px;
+    color: white;
+    text-align: center;
+}
+
+
+input[type=text], input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    background-color: #593C36;
+    color: white;
+    border: none;
+}
+
+input[type=submit]:hover {
+    opacity: 0.8;
+}
+
+.newsletter{
+    column-count: 2;
+    column-gap: 40px;
+}
+
+.copyright{
+    padding: 10px 0;
+    text-align: center;
+    display: inline;
+}
+
 @media (max-width: 600px) {
     .mobile-bar {
         display: flex;
