@@ -43,7 +43,7 @@ Rachael owns a coffee shop in Indianapolis, Indiana. She is a 32 year old single
 * Added a unique favicon to each page
 * Attached a newsletter form
 
-##Animation - Maria
+## Animation - Maria
 * Added an animation of a coffee machine with disperses coffee into a cup
 
 
