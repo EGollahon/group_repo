@@ -43,8 +43,13 @@ body {
     height: 30px;
     margin-left: 10px;
 }
-.logo a:hover {
-    background-color: #A58D8D;
+.logo a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    text-decoration: none;
+    color: #161214;
 }
 /*responsive nav bar*/
 .toggleButton {
@@ -68,7 +73,7 @@ body {
 
 .item-box {
     width: 300px;
-    height: 200px;
+    min-height: 200px;
     background-color: #1F3225;
     color: #F9F4F1;
     margin: 20px;
@@ -77,6 +82,12 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 20px;
+}
+
+.item-box i {
+    color: #F9F4F1;
+    font-size: 40pt;
 }
 
 .item-container {
@@ -100,16 +111,39 @@ body {
     color: #F9F4F1;
 }
 
+.banner > div {
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding: 50px 0px;
+    flex-wrap: wrap;
+}
+
+.button {
+    text-decoration: none;
+    color: #161214;
+    background-color: #A58D8D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 2px 4px 3px 3px rgba(0, 0, 0, 0.3);
+}
+
 .content {
     background-color: #A58D8D;
     min-height: 15vh;
-    margin: 20px 0 20px 0;
+    margin: 20px 0 40px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 80vw;
     border-radius: 20px;
+    padding: 20px 40px 40px 40px;
 }
 
 footer {
@@ -203,11 +237,11 @@ input[type=submit]:hover {
 .container {
     width: 130px;
     height: 250px;
-    position: absolute;
-    top: 40px;
+    position: relative;
+    transform: scale(2);
+    /* top: 40px;
     right: 20px;
-    margin-right: 10px;
-
+    margin-right: 10px; */
 }
 .coffee-header {
     width: 100%;
