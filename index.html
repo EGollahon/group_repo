@@ -1,48 +1,56 @@
 <!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/html">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Client Project</title>
-    <link rel="stylesheet" href="fontawesome-free-6.0.0-web/css/all.css" type="text/css">
-    <meta name="viewport" content = "width=device-width, initial scale=1.0">
-    <link rel="stylesheet" href="./stylesheet.css">
-    <link rel="icon" href="assets/icons/shop-solid.svg">
-</head>
-<body>
-
-
-<div class="NavBar" id="topNav">
-    <!--Logo-->
-    <div class="mobile-bar">
-        <div class ="logo"><a href = "index.html"><img src="logo.png"></a></div>
+    <link
+      rel="stylesheet"
+      href="fontawesome-free-6.0.0-web/css/all.css"
+      type="text/css"
+    />
+    <meta name="viewport" content="width=device-width, initial scale=1.0" />
+    <link rel="stylesheet" href="./stylesheet.css" />
+    <link rel="icon" href="assets/icons/shop-solid.svg" />
+  </head>
+  <body>
+    <div class="NavBar" id="topNav">
+      <!--Logo-->
+      <div class="mobile-bar">
+        <div class="logo">
+          <a href="index.html">
+            <img src="logo.png" />
+            <h1 style="margin-left: 20px">The Coffee Shop</h1>
+          </a>
+        </div>
         <!--collapsable hamburger menu-->
         <a href="index.html" class="toggleButton">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
         </a>
-    </div>
-    <!--Nav Bar links-->
-    <div class="NavBarLinks">
+      </div>
+      <!--Nav Bar links-->
+      <div class="NavBarLinks">
         <ul>
-            <li><a href="index.html" class="active">Home</a></li>
-            <li><a href="menu.html">Menu</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="careers.html">Careers</a></li>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="careers.html">Careers</a></li>
         </ul>
+      </div>
     </div>
-</div>
 
-<div class="banner">This is a banner.
-    <!--Coffee maker animation-->
-    <div class="container">
-        <div class="coffee-header">
+    <div class="banner">
+      <!--Coffee maker animation-->
+      <div>
+        <div class="container">
+          <div class="coffee-header">
             <div class="coffee-header__buttons coffee-header__button-one"></div>
             <div class="coffee-header__buttons coffee-header__button-two"></div>
             <div class="coffee-header__display"></div>
             <div class="coffee-header__details"></div>
-        </div>
-        <div class="coffee-medium">
+          </div>
+          <div class="coffee-medium">
             <div class="coffe-medium__exit"></div>
             <div class="coffee-medium__arm"></div>
             <div class="coffee-medium__liquid"></div>
@@ -51,47 +59,87 @@
             <div class="coffee-medium__smoke coffee-medium__smoke-three"></div>
             <div class="coffee-medium__smoke coffee-medium__smoke-for"></div>
             <div class="coffee-medium__cup"></div>
+          </div>
+          <div class="coffee-footer"></div>
         </div>
-        <div class="coffee-footer"></div>
+        <!--End of coffee animation-->
+
+        <div style="margin: 75px; max-width: 500px">
+          <h2>Fresh Coffee, Morning, Noon, and Night</h2>
+          <p>
+            Whenever you need a caffeine boost, a sweet treat, or just something
+            to put a smile on your face, The Coffee Shop is here for all your
+            coffee needs!
+          </p>
+          <a href="./menu.html" class="button">Take a Look at Our Menu!</a>
+        </div>
+      </div>
     </div>
 
-    <!--End of coffee animation-->
-</div>
+    <div class="item-container">
+      <div class="item-box">
+        <i class="fa-solid fa-snowflake"></i>
+        <h3>Iced Coffee</h3>
+      </div>
+      <div class="item-box">
+        <i class="fa-solid fa-mug-hot"></i>
+        <h3>Hot Coffee</h3>
+      </div>
+      <div class="item-box">
+        <i class="fa-solid fa-cookie-bite"></i>
+        <h3>Pastries</h3>
+      </div>
+    </div>
 
-<div class="item-container">
-    <div class="item-box">Menu Items Go Here</div>
-    <div class="item-box">Menu Items Go Here</div>
-    <div class="item-box">Menu Items Go Here</div>
-</div>
+    <div class="content">
+      <h3>About the Owner</h3>
+      <p>
+        Rachael owns The Coffee Shop in Indianapolis, Indiana. In her
+        undergraduate years at IUPUI, where she majored in business, she spent
+        her time studying with friends at various coffee shops. After
+        graduation, she opened her own shop, hoping that other students and
+        people in the community would be able to experience the comfort and joy
+        of a neighborhood coffee shop.
+      </p>
+    </div>
 
-
-
-<div class="content">This is regular content.</div>
-
-<footer>
-    <div class="row">
+    <footer>
+      <div class="row">
         <div class="column left">
-        <form>
+          <form>
             <h2>Subscribe to our Newsletter</h2>
-            <input type="text" placeholder="Email address" name="mail" required>
-        </form>
-            <input type="submit" value="Submit">
+            <input
+              type="text"
+              placeholder="Email address"
+              name="mail"
+              required
+            />
+          </form>
+          <input type="submit" value="Submit" />
         </div>
         <div class="column right">
-            <div class="icons">
-                <a href="https://twitter.com/"><i class="fa-brands fa-twitter-square"></i></a>
-                <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram-square"></i></a>
-                <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-square"></i></a>
-                <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube-square"></i></a>
-                <a href="https://www.snapchat.com/"><i class="fa-brands fa-snapchat-square"></i></a>
-            </div>
+          <div class="icons">
+            <a href="https://twitter.com/"
+              ><i class="fa-brands fa-twitter-square"></i
+            ></a>
+            <a href="https://www.instagram.com/"
+              ><i class="fa-brands fa-instagram-square"></i
+            ></a>
+            <a href="https://www.facebook.com/"
+              ><i class="fa-brands fa-facebook-square"></i
+            ></a>
+            <a href="https://www.youtube.com/"
+              ><i class="fa-brands fa-youtube-square"></i
+            ></a>
+            <a href="https://www.snapchat.com/"
+              ><i class="fa-brands fa-snapchat-square"></i
+            ></a>
+          </div>
         </div>
-    </div>
-    <div class="copyright">
-    &copy; Copyright 2022 Group 3
-    </div>
-</footer>
+      </div>
+      <div class="copyright">&copy; Copyright 2022 Group 3</div>
+    </footer>
 
-<script src="app.js"></script>
-</body>
+    <script src="app.js"></script>
+  </body>
 </html>
