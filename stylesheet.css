@@ -91,7 +91,7 @@ body {
 .banner {
     width: 100%;
     background-color: #593C36;
-    min-height: 15vh;
+    min-height: 20vh;
     margin: 20px 0 20px 0;
     display: flex;
     flex-direction: column;
@@ -199,47 +199,15 @@ input[type=submit]:hover {
     display: inline;
 }
 
-@media (max-width: 600px) {
-    .mobile-bar {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        width: 100%;
-        min-height: 70px;
-    }
-    .toggleButton{
-        display: flex;
-    }
-    .NavBarLinks{
-        display: none;
-        width: 100%;
-    }
-    .NavBar{
-        flex-direction: column;
-        align-items: flex-start;
-    }
-    .NavBarLinks ul{
-        width: 100%;
-        flex-direction: column;
-    }
-    .NavBarLinks li{
-        text-align: center;
-        width: 100%;
-    }
-    .NavBarLinks.active{
-        display: flex;
-        background-color: #A58D8D;
-        width: 100%;
-    }
-}
 /*animation styling*/
 .container {
     width: 130px;
     height: 250px;
     position: absolute;
-    top: calc(50% - 180px);
-    left: calc(50% - -550px);
+    top: 40px;
+    right: 20px;
+    margin-right: 10px;
+
 }
 .coffee-header {
     width: 100%;
@@ -249,41 +217,7 @@ input[type=submit]:hover {
     left: 0;
     background-color: #231f20;
     border-radius: 10px;
-}/*
-.coffee-header__buttons {
-    width: 25px;
-    height: 25px;
-    position: absolute;
-    top: 25px;
-    background-color: #282323;
-    border-radius: 50%;
 }
-.coffee-header__buttons::after {
-    content: "";
-    width: 8px;
-    height: 3px;
-    position: absolute;
-    bottom: -8px;
-    left: calc(50% - 4px);
-    background-color: #615e5e;
-}
-.coffee-header__button-one {
-    left: 15px;
-}
-.coffee-header__button-two {
-    left: 50px;
-}
-.coffee-header__display {
-    width: 50px;
-    height: 50px;
-    position: absolute;
-    top: calc(50% - 25px);
-    left: calc(50% - 25px);
-    border-radius: 50%;
-    background-color: #A58D8D;
-    border: 5px solid #593C36;
-    box-sizing: border-box;
-}*/
 .coffee-header__details {
     width: 8px;
     height: 20px;
@@ -479,7 +413,7 @@ input[type=submit]:hover {
     position: absolute;
     bottom: 60px;
     left: calc(50% - 47.5%);
-    background-color: #593C36;
+    background-color: #9e9495;
     border-radius: 10px;
 }
 .coffee-footer::after {
@@ -490,4 +424,39 @@ input[type=submit]:hover {
     bottom: -10px;
     left: -8px;
     background-color: #000;
+}
+
+@media (max-width: 600px) {
+    .mobile-bar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        min-height: 70px;
+    }
+    .toggleButton{
+        display: flex;
+    }
+    .NavBarLinks{
+        display: none;
+        width: 100%;
+    }
+    .NavBar{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .NavBarLinks ul{
+        width: 100%;
+        flex-direction: column;
+    }
+    .NavBarLinks li{
+        text-align: center;
+        width: 100%;
+    }
+    .NavBarLinks.active{
+        display: flex;
+        background-color: #A58D8D;
+        width: 100%;
+    }
 }
