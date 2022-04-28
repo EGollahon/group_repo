@@ -177,8 +177,21 @@ footer {
     justify-content: center
 }
 
-
 .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column2 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row2:after {
     content: "";
     display: table;
     clear: both;
@@ -203,7 +216,7 @@ i:hover{
 }
 
 
-input[type=text], input[type=submit] {
+input[type=text], button {
     width: 100%;
     padding: 12px;
     margin: 8px 0;
@@ -212,19 +225,27 @@ input[type=text], input[type=submit] {
     box-sizing: border-box;
 }
 
-input[type=submit] {
+button {
     background-color: #593C36;
     color: white;
     border: none;
 }
 
-input[type=submit]:hover {
+button:hover {
     opacity: 0.8;
 }
 
 .newsletter{
     column-count: 2;
     column-gap: 40px;
+}
+
+.agree{
+    display: inline-block;
+    position: relative;
+    top: 50px;
+    padding: 10px;
+    height: 300px;
 }
 
 .copyright{

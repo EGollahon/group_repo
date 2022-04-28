@@ -106,7 +106,7 @@
     <footer>
       <div class="row">
         <div class="column left">
-          <form>
+          <form id="myform" onsubmit="return handle_form_submission()">
             <h2>Subscribe to our Newsletter</h2>
             <input
               type="text"
@@ -114,8 +114,8 @@
               name="mail"
               required
             />
+            <button type='submit'>Submit</button>
           </form>
-          <input type="submit" value="Submit" />
         </div>
         <div class="column right">
           <div class="icons">
