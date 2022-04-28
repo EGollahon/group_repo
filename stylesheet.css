@@ -186,8 +186,10 @@ footer {
 .column2 {
     float: left;
     width: 50%;
+    display: inline-block;
+    position: relative;
+    top: 50px;
     padding: 10px;
-    height: 300px; /* Should be removed. Only for demonstration */
 }
 
 /* Clear floats after the columns */
@@ -200,6 +202,12 @@ footer {
 
 @media screen and (max-width: 600px) {
     .column {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .column2 {
         width: 100%;
     }
 }
