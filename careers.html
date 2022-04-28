@@ -2,11 +2,11 @@
 <html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
-    <title>Careers</title>
+    <title>Menu</title>
     <link rel="stylesheet" href="fontawesome-free-6.0.0-web/css/all.css" type="text/css">
     <meta name="viewport" content = "width=device-width, initial scale=1.0">
     <link rel="stylesheet" href="./stylesheet.css">
-    <link rel="icon" href="assets/icons/briefcase-solid.svg">
+    <link rel="icon" href="assets/icons/receipt-solid.svg">
 </head>
 <body>
 
@@ -33,15 +33,71 @@
     </div>
 </div>
 
-<div class="banner">This is a banner.</div>
+<div class="banner"><h1>Careers</h1></div>
 
 <div class="item-container">
-    <div class="item-box">Items Go Here</div>
-    <div class="item-box">Items Go Here</div>
-    <div class="item-box">Items Go Here</div>
+    <div class="item-box">
+        We strive hard to create a work atmosphere where our employees can thrive and have fun while also learning and growing. Please fill out the application if you are interested in joining our team!
+    </div>
+    <div class="item-box">
+        Even if we are not actively recruiting, we always take applications. When we have a job opportunity, we will contact you for an interview if your application is selected.
+    </div>
+    <div class="item-box"><strong>Current openings:</strong><br>
+
+        Baking (morning shift)<br>
+
+        Barista (afternoon, evening shift)</div>
 </div>
 
-<div class="content">This is regular content.</div>
+<div class="content">
+    <form id="myform" onsubmit="return handle_form_submission()">
+    <div class="row2"></div>
+    <div class="column2">
+    <label for="fname">First name</label>
+    <input type="text" id="fname" name="fname" required/><br>
+    <label for="lname">Last name</label><br>
+    <input type="text" id="lname" name="lname" required/>
+        <p>I am available to work</p>
+        <input type="checkbox" id="job1" name="job1" value="Mornings"/>
+        <label for="job1"> Mornings Only</label><br>
+        <input type="checkbox" id="job2" name="job2" value="Afternoons"/>
+        <label for="job2"> Afternoons Only</label><br>
+        <input type="checkbox" id="job3" name="job3" value="Evenings"/>
+        <label for="job3"> Evenings Only</label><br>
+        <input type="checkbox" id="job4" name="job4" value="M/A"/>
+        <label for="job4"> Mornings and Afternoons</label><br>
+        <input type="checkbox" id="job5" name="job5" value="A/E"/>
+        <label for="job5"> Afternoons and Evenings</label><br>
+        <input type="checkbox" id="job6" name="job6" value="Any"/>
+        <label for="job6"> Any Shifts</label><br><br>
+    </div>
+    <div class="column2">
+    <label for="phone">Phone</label>
+    <input type="text" id="phone" name="phone" required/><br>
+    <label for="email">Email</label><br>
+    <input type="text" id="email" name="email" required/>
+        <p>I’m interested in working as</p>
+        <input type="checkbox" id="area1" name="area1" value="Barista"/>
+        <label for="area1"> Barista</label><br>
+        <input type="checkbox" id="area2" name="area2" value="Food Prep"/>
+        <label for="area2"> Food Prep</label><br>
+        <input type="checkbox" id="area3" name="area3" value="Baking"/>
+        <label for="area3"> Baking</label><br>
+        <input type="checkbox" id="area4" name="area4" value="B/F"/>
+        <label for="area4"> Baking and Food Prep</label><br>
+        <input type="checkbox" id="area5" name="area5" value="BH"/>
+        <label for="area5"> Other Back of the House</label><br>
+        <input type="checkbox" id="area6" name="area6" value="Other"/>
+        <label for="area6"> Other Positions</label><br><br>
+    </div>
+        <div class="agree">
+        <input type="checkbox" id="agree" name="agree" value="Agree" required/>
+        <label for="agree"> I agree to the terms</label>
+        <p>I authorize any person, organization or company listed on this application to furnish The Coffee Shop any and all information concerning the qualifications for employment. I also authorize officers of The Coffee Shop to request and receive such information.</p><br>
+        <button type='submit'>Submit</button>
+        </div>
+    </form>
+</div>
 
 <script src="app.js"></script>
 </body>

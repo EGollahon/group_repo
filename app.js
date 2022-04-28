@@ -5,3 +5,7 @@ toggleButton.addEventListener('click', ()=>{
     NavBarLinks.classList.toggle('active')
 })
 
+function handle_form_submission() {
+    alert('Submitted, Thank You!');
+    return false;
+}
