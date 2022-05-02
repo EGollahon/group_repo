@@ -16,9 +16,9 @@ Rachael owns a coffee shop in Indianapolis, Indiana. She is a 32 year old single
 
 ## Pages
 * Home
-* Menu
-* About
-* Apply for a Job / Careers
+* Menu (designed by Elizabeth)
+* About (designed by Maria)
+* Apply for a Job / Careers (designed by Newt)
 
 ## Color Scheme - Newt
 - ![#161214](https://via.placeholder.com/25/161214/000000?text=+) `#161214`
@@ -44,7 +44,5 @@ Rachael owns a coffee shop in Indianapolis, Indiana. She is a 32 year old single
 * Attached a newsletter form
 
 ## Animation - Maria
-* Added an animation of a coffee machine with disperses coffee into a cup
+* Added an animation of a coffee machine that disperses coffee into a cup
 
-## Careers - Newt
-* Created content on careers page
